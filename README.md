@@ -101,6 +101,10 @@ A rota recebe um token JWT pelo header e o id de uma operação registrada (saqu
 - [x] _should not be able to get statement operation with invalid User_ <br>
 - [x] _should not be able to get statement operation with invalid statement id_ <br>
 
+### GET  <code style="color:red">/api/v1/statements/transfers/:user_id</code>
+
+Essa rota permite fazer transferencia de dinheiro entre usuários autenticados pelo token JWT passada pelo header da requisição. O usuário para qual destina enviar a transferencia é passado pelos parâmetros de rota  <code style="color:red">user_id</code>
+
 
 ## Tecnologias utilizadas
 
